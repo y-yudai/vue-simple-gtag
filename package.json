@@ -1,0 +1,33 @@
+{
+  "name": "vue-simple-gtag",
+  "version": "1.0.0",
+  "description": "gtag.js for Vue",
+  "main": "dist/vue-simple-gtag.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "Yudai Yamamoto",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "google analytics",
+    "google tracking",
+    "vue-analytics",
+    "vue-gtag",
+    "gtag",
+    "gtag.js",
+    "vue",
+    "vuejs"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
